@@ -10,19 +10,18 @@ Uma pequena API de CRUD com Python e Flask.
 
 ## Como Executar o Projeto
 
-
-	export FLASK_APP=app
-	export FLASK_ENV=Development
-	export FLASK_DEBUG=True
-	flask run
-	
-
+```bash
+~$ export FLASK_APP=app
+~$ export FLASK_ENV=Development
+~$ export FLASK_DEBUG=True
+~$ flask run	
+```
 
 ## Como realizar as Migrações
 
-
-	flask db init
-	flask db migrate
-	flask db upgrade
-	
+```bash
+~$ flask db init
+~$ flask db migrate
+~$ flask db upgrade
+```
 
